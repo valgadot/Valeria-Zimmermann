@@ -315,3 +315,11 @@ padding: 0;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10vh;
 }
+
+.productos__tienda {
+    display: grid;
+    grid-gap: 10vh;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+}
+
